@@ -1,0 +1,5 @@
+ERROR LOG:
+
+file:///C:/Users/Aleksander/Documents/RPG%20Paper%20Maker%20Games/Sandbox/resources/app/Content/Datas/Scripts/Plugins/Gamepad/code.js: 29
+TypeError: Cannot read property 'buttons' of null
+    at file:///C:/Users/Aleksander/Documents/RPG%20Paper%20Maker%20Games/Sandbox/resources/app/Content/Datas/Scripts/Plugins/Gamepad/code.js:29:35
