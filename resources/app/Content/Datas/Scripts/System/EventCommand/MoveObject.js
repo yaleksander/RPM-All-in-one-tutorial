@@ -625,7 +625,7 @@ class MoveObject extends Base {
      */
     turnNorth(currentState, object, parameters) {
         if (object) {
-            object.lookAt((Orientation.North + (this.isCameraOrientation ? Math.floor((Scene.Map.current.camera.horizontalAngle + 135) / 90) : 0)) % 4);
+			object.lookAt((Orientation.North + (this.isCameraOrientation ? Scene.Map.current.orientation + 2 : 0)) % 4);
             return true;
         }
         return Orientation.North;
@@ -639,7 +639,7 @@ class MoveObject extends Base {
      */
     turnSouth(currentState, object, parameters) {
         if (object) {
-            object.lookAt((Orientation.South + (this.isCameraOrientation ? Math.floor((Scene.Map.current.camera.horizontalAngle + 135) / 90) : 0)) % 4);
+			object.lookAt((Orientation.South + (this.isCameraOrientation ? Scene.Map.current.orientation + 2 : 0)) % 4);
             return true;
         }
         return Orientation.South;
@@ -653,7 +653,7 @@ class MoveObject extends Base {
      */
     turnWest(currentState, object, parameters) {
         if (object) {
-            object.lookAt((Orientation.West + (this.isCameraOrientation ? Math.floor((Scene.Map.current.camera.horizontalAngle + 135) / 90) : 0)) % 4);
+			object.lookAt((Orientation.West + (this.isCameraOrientation ? Scene.Map.current.orientation + 2 : 0)) % 4);
             return true;
         }
         return Orientation.West;
@@ -667,7 +667,7 @@ class MoveObject extends Base {
      */
     turnEast(currentState, object, parameters) {
         if (object) {
-            object.lookAt((Orientation.East + (this.isCameraOrientation ? Math.floor((Scene.Map.current.camera.horizontalAngle + 135) / 90) : 0)) % 4);
+			object.lookAt((Orientation.East + (this.isCameraOrientation ? Scene.Map.current.orientation + 2 : 0)) % 4);
             return true;
         }
         return Orientation.East;
@@ -753,7 +753,7 @@ class MoveObject extends Base {
             else {
                 object.currentStateInstance.indexX = parameters.indexX;
                 object.currentStateInstance.indexY = parameters.dontChangeOrientation ?
-                    object.orientation : parameters.indexY;
+                    object.orientationEye : parameters.indexY;
             }
             // Permanent change
             if (parameters.permanent) {
@@ -792,7 +792,7 @@ class MoveObject extends Base {
                 options.sid = object.currentStateInstance.speedID;
             }
             object.currentStateInstance.indexX = object.frame.value;
-            object.currentStateInstance.indexY = object.orientation;
+            object.currentStateInstance.indexY = object.orientationEye;
             object.changeState();
         }
         return Orientation.None;
@@ -817,7 +817,7 @@ class MoveObject extends Base {
                 options.fid = object.currentStateInstance.frequencyID;
             }
             object.currentStateInstance.indexX = object.frame.value;
-            object.currentStateInstance.indexY = object.orientation;
+            object.currentStateInstance.indexY = object.orientationEye;
             object.changeState();
         }
         return Orientation.None;
