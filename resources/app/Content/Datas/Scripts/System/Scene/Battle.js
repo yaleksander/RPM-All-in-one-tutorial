@@ -103,6 +103,7 @@ class Battle extends Map {
         this.cameraDistance = this.camera.distance;
         this.transitionZoom = false;
         if (!this.cameraON) {
+			console.log(this.sceneMap);
             this.camera.distance = Battle.START_CAMERA_DISTANCE;
             this.transitionZoom = true;
         }
@@ -399,6 +400,8 @@ class Battle extends Map {
                     break;
             }
         }
+        this.sceneMap.camera.distance = this.mapCameraDistance;
+        this.sceneMap.camera.update();
     }
     /**
      *  Handle battle key pressed according to step.
