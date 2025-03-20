@@ -1,2 +1,3 @@
 backups/
-resources/app/Content/Datas/Scripts/Plugins/*/
+**/temp
+**/tempUndoRedo
