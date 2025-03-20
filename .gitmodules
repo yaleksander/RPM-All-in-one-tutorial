@@ -40,3 +40,9 @@
 [submodule "resources/app/Content/Datas/Scripts/Plugins/Hide message box"]
 	path = resources/app/Content/Datas/Scripts/Plugins/Hide message box
 	url = https://github.com/yaleksander/RPM-Plugin-Hide-message-box
+[submodule "resources/app/Content/Datas/Scripts/Plugins/More sound options"]
+	path = resources/app/Content/Datas/Scripts/Plugins/More sound options
+	url = https://github.com/yaleksander/RPM-Plugin-More-sound-options
+[submodule "resources/app/Content/Datas/Scripts/Plugins/More mouse options"]
+	path = resources/app/Content/Datas/Scripts/Plugins/More mouse options
+	url = https://github.com/yaleksander/RPM-Plugin-More-mouse-options
