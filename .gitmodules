@@ -46,9 +46,3 @@
 [submodule "resources/app/Content/Datas/Scripts/Plugins/Typewriter Text"]
 	path = resources/app/Content/Datas/Scripts/Plugins/Typewriter Text
 	url = https://github.com/SpunkyAmbassador/Typewriter-Text
-[submodule "resources/app/Content/Datas/Scripts/Plugins/GLTF Loader"]
-	path = resources/app/Content/Datas/Scripts/Plugins/GLTF Loader
-	url = https://github.com/yaleksander/RPM-Plugin-GLTF-Loader
-[submodule "resources/app/Content/Datas/Scripts/Plugins/Gamepad"]
-	path = resources/app/Content/Datas/Scripts/Plugins/Gamepad
-	url = https://github.com/yaleksander/RPM-Plugin-Gamepad
