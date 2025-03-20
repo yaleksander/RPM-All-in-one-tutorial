@@ -1,48 +1,45 @@
-[submodule "RPM-Plugin-GLTF-Loader"]
-	path = resources/app/Content/Datas/Scripts/Plugins/GLTF Loader
-	url = https://github.com/yaleksander/RPM-Plugin-GLTF-Loader
-[submodule "RPM-Plugin-Gamepad"]
-	path = RPM-Plugin-Gamepad
-	url = https://github.com/yaleksander/RPM-Plugin-Gamepad
-[submodule "resources/app/Content/Datas/Scripts/Plugins/Light"]
-	path = resources/app/Content/Datas/Scripts/Plugins/Light
-	url = https://github.com/yaleksander/RPM-Plugin-Light-and-Shader
-[submodule "resources/app/Content/Datas/Scripts/Plugins/Hide message box"]
-	path = resources/app/Content/Datas/Scripts/Plugins/Hide message box
-	url = https://github.com/yaleksander/RPM-Plugin-Hide-message-box
-[submodule "resources/app/Content/Datas/Scripts/Plugins/Hide object on block view"]
-	path = resources/app/Content/Datas/Scripts/Plugins/Hide object on block view
-	url = https://github.com/yaleksander/RPM-Plugin-Hide-on-block-view
-[submodule "resources/app/Content/Datas/Scripts/Plugins/Map loop"]
-	path = resources/app/Content/Datas/Scripts/Plugins/Map loop
-	url = https://github.com/yaleksander/RPM-Plugin-Map-loop
-[submodule "resources/app/Content/Datas/Scripts/Plugins/More mouse options"]
-	path = resources/app/Content/Datas/Scripts/Plugins/More mouse options
-	url = https://github.com/yaleksander/RPM-Plugin-More-mouse-options
-[submodule "resources/app/Content/Datas/Scripts/Plugins/More sound options"]
-	path = resources/app/Content/Datas/Scripts/Plugins/More sound options
-	url = https://github.com/yaleksander/RPM-Plugin-More-sound-options
-[submodule "resources/app/Content/Datas/Scripts/Plugins/Move in all directions"]
-	path = resources/app/Content/Datas/Scripts/Plugins/Move in all directions
-	url = https://github.com/yaleksander/RPM-Plugin-Move-in-all-directions
-[submodule "resources/app/Content/Datas/Scripts/Plugins/Multiple text boxes"]
-	path = resources/app/Content/Datas/Scripts/Plugins/Multiple text boxes
-	url = https://github.com/yaleksander/RPM-Plugin-Multiple-text-boxes
-[submodule "resources/app/Content/Datas/Scripts/Plugins/Particle effects"]
-	path = resources/app/Content/Datas/Scripts/Plugins/Particle effects
-	url = https://github.com/yaleksander/RPM-Plugin-Particle-engine
-[submodule "resources/app/Content/Datas/Scripts/Plugins/Realistic water and sun"]
-	path = resources/app/Content/Datas/Scripts/Plugins/Realistic water and sun
-	url = https://github.com/yaleksander/RPM-Plugin-Realistic-water-and-sun
-[submodule "resources/app/Content/Datas/Scripts/Plugins/Skip title"]
-	path = resources/app/Content/Datas/Scripts/Plugins/Skip title
-	url = https://github.com/yaleksander/RPM-Plugin-Skip-title
-[submodule "resources/app/Content/Datas/Scripts/Plugins/True jump"]
-	path = resources/app/Content/Datas/Scripts/Plugins/True jump
-	url = https://github.com/yaleksander/RPM-Plugin-True-jump
 [submodule "resources/app/Content/Datas/Scripts/Plugins/Waterfall"]
 	path = resources/app/Content/Datas/Scripts/Plugins/Waterfall
 	url = https://github.com/yaleksander/RPM-Plugin-Waterfall
 [submodule "resources/app/Content/Datas/Scripts/Plugins/Typewriter Text"]
 	path = resources/app/Content/Datas/Scripts/Plugins/Typewriter Text
 	url = https://github.com/SpunkyAmbassador/Typewriter-Text
+[submodule "resources/app/Content/Datas/Scripts/Plugins/GLTF Loader"]
+	path = resources/app/Content/Datas/Scripts/Plugins/GLTF Loader
+	url = https://github.com/yaleksander/RPM-Plugin-GLTF-Loader
+[submodule "resources/app/Content/Datas/Scripts/Plugins/Gamepad"]
+	path = resources/app/Content/Datas/Scripts/Plugins/Gamepad
+	url = https://github.com/yaleksander/RPM-Plugin-Gamepad
+[submodule "resources/app/Content/Datas/Scripts/Plugins/Multiple text boxes"]
+	path = resources/app/Content/Datas/Scripts/Plugins/Multiple text boxes
+	url = https://github.com/yaleksander/RPM-Plugin-Multiple-text-boxes
+[submodule "resources/app/Content/Datas/Scripts/Plugins/More mouse options"]
+	path = resources/app/Content/Datas/Scripts/Plugins/More mouse options
+	url = https://github.com/yaleksander/RPM-Plugin-More-sound-options
+[submodule "resources/app/Content/Datas/Scripts/Plugins/Particle effects"]
+	path = resources/app/Content/Datas/Scripts/Plugins/Particle effects
+	url = https://github.com/yaleksander/RPM-Plugin-Particle-engine
+[submodule "resources/app/Content/Datas/Scripts/Plugins/Light"]
+	path = resources/app/Content/Datas/Scripts/Plugins/Light
+	url = https://github.com/yaleksander/RPM-Plugin-Light-and-Shader
+[submodule "resources/app/Content/Datas/Scripts/Plugins/True jump"]
+	path = resources/app/Content/Datas/Scripts/Plugins/True jump
+	url = https://github.com/yaleksander/RPM-Plugin-True-jump
+[submodule "resources/app/Content/Datas/Scripts/Plugins/Move in all directions"]
+	path = resources/app/Content/Datas/Scripts/Plugins/Move in all directions
+	url = https://github.com/yaleksander/RPM-Plugin-Move-in-all-directions
+[submodule "resources/app/Content/Datas/Scripts/Plugins/Hide object on block view"]
+	path = resources/app/Content/Datas/Scripts/Plugins/Hide object on block view
+	url = https://github.com/yaleksander/RPM-Plugin-Hide-on-block-view
+[submodule "resources/app/Content/Datas/Scripts/Plugins/Map loop"]
+	path = resources/app/Content/Datas/Scripts/Plugins/Map loop
+	url = https://github.com/yaleksander/RPM-Plugin-Map-loop
+[submodule "resources/app/Content/Datas/Scripts/Plugins/Realistic water and sun"]
+	path = resources/app/Content/Datas/Scripts/Plugins/Realistic water and sun
+	url = https://github.com/yaleksander/RPM-Plugin-Realistic-water-and-sun
+[submodule "resources/app/Content/Datas/Scripts/Plugins/Skip title"]
+	path = resources/app/Content/Datas/Scripts/Plugins/Skip title
+	url = https://github.com/yaleksander/RPM-Plugin-Skip-title
+[submodule "resources/app/Content/Datas/Scripts/Plugins/Hide message box"]
+	path = resources/app/Content/Datas/Scripts/Plugins/Hide message box
+	url = https://github.com/yaleksander/RPM-Plugin-Hide-message-box
