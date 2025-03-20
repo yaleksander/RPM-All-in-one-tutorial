@@ -13,9 +13,6 @@
 [submodule "resources/app/Content/Datas/Scripts/Plugins/Multiple text boxes"]
 	path = resources/app/Content/Datas/Scripts/Plugins/Multiple text boxes
 	url = https://github.com/yaleksander/RPM-Plugin-Multiple-text-boxes
-[submodule "resources/app/Content/Datas/Scripts/Plugins/More mouse options"]
-	path = resources/app/Content/Datas/Scripts/Plugins/More mouse options
-	url = https://github.com/yaleksander/RPM-Plugin-More-sound-options
 [submodule "resources/app/Content/Datas/Scripts/Plugins/Particle effects"]
 	path = resources/app/Content/Datas/Scripts/Plugins/Particle effects
 	url = https://github.com/yaleksander/RPM-Plugin-Particle-engine
