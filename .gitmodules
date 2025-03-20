@@ -43,3 +43,6 @@
 [submodule "resources/app/Content/Datas/Scripts/Plugins/Waterfall"]
 	path = resources/app/Content/Datas/Scripts/Plugins/Waterfall
 	url = https://github.com/yaleksander/RPM-Plugin-Waterfall
+[submodule "resources/app/Content/Datas/Scripts/Plugins/Typewriter Text"]
+	path = resources/app/Content/Datas/Scripts/Plugins/Typewriter Text
+	url = https://github.com/SpunkyAmbassador/Typewriter-Text
